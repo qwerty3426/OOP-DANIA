@@ -1,0 +1,15 @@
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\bin\Debug\net9.0\OOP-DANIA.exe
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\bin\Debug\net9.0\OOP-DANIA.deps.json
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\bin\Debug\net9.0\OOP-DANIA.runtimeconfig.json
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\bin\Debug\net9.0\OOP-DANIA.dll
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\bin\Debug\net9.0\OOP-DANIA.pdb
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.AssemblyInfoInputs.cache
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.AssemblyInfo.cs
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.csproj.CoreCompileInputs.cache
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.sourcelink.json
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.dll
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\refint\OOP-DANIA.dll
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.pdb
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.genruntimeconfig.cache
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\ref\OOP-DANIA.dll
