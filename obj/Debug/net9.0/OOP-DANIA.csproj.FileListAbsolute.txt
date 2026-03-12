@@ -13,3 +13,8 @@ C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\re
 C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.pdb
 C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.genruntimeconfig.cache
 C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\ref\OOP-DANIA.dll
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\ClinicProject.Forms.AddDoctorForm.resources
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\ClinicProject.Forms.AddPatientForm.resources
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\ClinicProject.Forms.AddVisitForm.resources
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\ClinicProject.MainForm.resources
+C:\Users\artem\OneDrive\Desktop\курсова oop\OOP-DANIA\obj\Debug\net9.0\OOP-DANIA.csproj.GenerateResource.cache

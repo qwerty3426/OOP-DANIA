@@ -1,0 +1,41 @@
+⚙️ Рішення "Clinic" (Solution - об'єднує обидва проєкти)
+│
+├── 🪟 Clinic.App (Основний проєкт - Windows Forms App)
+│   │
+│   ├── 📚 Dependencies (Залежності)
+│   │   ├── 📦 Microsoft.EntityFrameworkCore.Sqlite  <-- Завантажено через NuGet
+│   │   └── 📦 Microsoft.EntityFrameworkCore.Design  <-- (опціонально для EF Core)
+│   │
+│   ├── 📁 Data
+│   │   └── 📄 ClinicDbContext.cs          <-- Налаштування зв'язку з базою даних SQLite
+│   │
+│   ├── 📁 Forms
+│   │   ├── 🪟 MainForm.cs                 <-- Головне вікно з таблицею візитів (код)
+│   │   ├── 🪟 MainForm.Designer.cs        <-- Згенерований код дизайну вікна (кнопки, таблиці)
+│   │   └── 📝 MainForm.resx               <-- Ресурси форми
+│   │
+│   ├── 📁 Models (Предметна область)
+│   │   ├── 📄 Patient.cs                  <-- Клас пацієнта
+│   │   ├── 📄 Role.cs                     <-- Перелік ролей (Enum)
+│   │   ├── 📄 User.cs                     <-- Клас користувача (лікар/реєстратор)
+│   │   ├── 📄 Visit.cs                    <-- Клас візиту (Контекст для патерну State)
+│   │   └── 📄 VisitStates.cs              <-- Тут інтерфейс IVisitState та класи Scheduled, InProgress...
+│   │
+│   ├── 📁 Repositories (Рівень доступу до даних)
+│   │   ├── 📄 IClinicRepository.cs        <-- Інтерфейс репозиторію
+│   │   └── 📄 ClinicRepository.cs         <-- Реалізація роботи з базою ClinicDbContext
+│   │
+│   ├── 📁 Services (Бізнес-логіка)
+│   │   └── 📄 ClinicService.cs            <-- Логіка пошуку та створення візитів
+│   │
+│   └── 📄 Program.cs                      <-- ТОЧКА ВХОДУ (Тут підключається БД і запускається MainForm)
+│
+│
+└── 🧪 Clinic.Tests (Проєкт модульного тестування - MSTest Test Project)
+    │
+    ├── 📚 Dependencies (Залежності)
+    │   ├── 📦 Moq                             <-- Бібліотека для створення фейків (через NuGet)
+    │   └── 🔗 Clinic.App                      <-- Project Reference (посилання на основний проєкт)
+    │
+    ├── 📄 ClinicServiceTests.cs               <-- Тести для бізнес-логіки (перевірка Moq)
+    └── 📄 VisitStateTests.cs                  <-- Тести перевірки патерну State (переходи статусів)

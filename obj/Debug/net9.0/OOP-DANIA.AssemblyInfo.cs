@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOP-DANIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2512e9c0bbd5a295cc35238015bc1ef190be8af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3ccb942bd8e3e86c807b4387186b3b702667453")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOP-DANIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOP-DANIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
