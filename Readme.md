@@ -83,3 +83,35 @@ classDiagram
     IVisitState <|.. ScheduledState : Заплановано
     IVisitState <|.. InProgressState : В процесі
     IVisitState <|.. CompletedState : Завершено
+Та також ER-Діаграма 
+![alt text](image-1.png)
+erDiagram
+    %% ТАБЛИЦЯ КОРИСТУВАЧІВ (ЛІКАРІ ТА АДМІНИ)
+    USERS {
+        int Id PK "Первинний ключ"
+        string FullName "ПІБ (Лікар/Адмін)"
+        string Login "Логін для входу"
+        string Password "Пароль"
+        int Role "Роль (0=Admin, 1=Doctor)"
+    }
+
+    %% ТАБЛИЦЯ ПАЦІЄНТІВ
+    PATIENTS {
+        int Id PK "Первинний ключ"
+        string FullName "ПІБ пацієнта"
+        datetime BirthDate "Дата народження"
+        string Phone "Номер телефону"
+    }
+
+    %% ТАБЛИЦЯ ВІЗИТІВ (ЦЕНТРАЛЬНА ЛОГІКА)
+    VISITS {
+        int Id PK "Первинний ключ"
+        int PatientId FK "Зв'язок з PATIENTS"
+        int DoctorId FK "Зв'язок з USERS"
+        datetime Date "Дата прийому"
+        string State "Статус (Scheduled/InProgress/Completed)"
+    }
+
+    %% ЗВ'ЯЗКИ МІЖ ТАБЛИЦЯМИ
+    PATIENTS ||--o{ VISITS : "має історію записів"
+    USERS ||--o{ VISITS : "приймає пацієнта"
