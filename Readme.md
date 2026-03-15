@@ -121,5 +121,12 @@ erDiagram
     PATIENTS ||--o{ VISITS : "має історію записів"
     USERS ||--o{ VISITS : "приймає пацієнта"
     
+
+
+
+
+
+
+    
     UnitTest 
     ![alt text](image-2.png)
