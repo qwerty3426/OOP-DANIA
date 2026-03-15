@@ -40,8 +40,7 @@ public class ClinicTests
     }
 
     // 4. Отримання списку пацієнтів
-    [Fact]
-    public void GetPatients_ReturnsList()
+    [Fact]    public void GetPatients_ReturnsList()
     {
         var repo = new FakeClinicRepository();
         repo.AddPatient(new Patient { FullName = "Анна" });
