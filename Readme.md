@@ -1,3 +1,4 @@
+Реєстратура клініки: пацієнти та візити
 моя дівграма UML та код  до неї 
 ![alt text](image.png) 
 classDiagram
@@ -115,3 +116,6 @@ erDiagram
     %% ЗВ'ЯЗКИ МІЖ ТАБЛИЦЯМИ
     PATIENTS ||--o{ VISITS : "має історію записів"
     USERS ||--o{ VISITS : "приймає пацієнта"
+    
+    UnitTest 
+    ![alt text](image-2.png)
